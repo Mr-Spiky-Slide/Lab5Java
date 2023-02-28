@@ -24,7 +24,7 @@ public class Main {
 
             //find out time between albums
             Period betweenAlbums = Period.between(joshuaTree, rattleAndHum);
-            System.out.printf("The albums are %d years, %d months, and %d days apart.\n",
+            System.out.printf("The albums are %d year, %d months, and %d day apart.\n",
                     betweenAlbums.getYears(),
                     betweenAlbums.getMonths(),
                     betweenAlbums.getDays());
